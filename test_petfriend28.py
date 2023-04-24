@@ -12,7 +12,7 @@ class GetApiKey(BaseModel):
 def test_get_api_key():
 
     url = 'https://petfriends.skillfactory.ru/api/key'
-    headers = {"email": "anna.an2022@inbox.ru", "password": "petfriend22"}
+    headers = {"email": "anna****.ru", "password": "pet****"}
     response = requests.get(url, headers=headers)
 
     assert response.status_code == 200
